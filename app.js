@@ -33,7 +33,7 @@
 //Task 7
     let objects = ['taula', 'cadira', 'ordinador', 'llibreta'];
     let index = objects.forEach(function(word) {
-        console.log(`L'objecte ${word} està a la posició ${objects.indexOf(word)}`);
+        document.write(`L'objecte ${word} està a la posició ${objects.indexOf(word)} <br><br>`);
     })
 
 //Task 8
@@ -41,16 +41,16 @@
 function calculadora(operador, valor1, valor2) {
     
         if (operador === 'suma') {
-            console.log(valor1 + valor2);
+            document.write(valor1 + valor2);
         } else if (operador === 'resta') {
-            console.log(valor1 - valor2);
+            document.write(valor1 - valor2);
         } else if (operador === 'multiplica' || operador === 'multiplicación') {
-            console.log(valor1 * valor2);
+            document.write(valor1 * valor2);
         } else if (operador === 'divide' || operador === 'división') {
             if(valor2 === 0) {
-                console.log(valor1);
+                document.write(valor1);
             } else {
-                console.log(valor1/valor2);
+                document.write(valor1/valor2);
             }
         }
     }
