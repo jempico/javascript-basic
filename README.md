@@ -1,2 +1,1 @@
-Entrega exercicis Nivell 1 
-Entrega exercici Nivell 2 
+Entrega exercicis Nivell 1 y Nivell 2 
